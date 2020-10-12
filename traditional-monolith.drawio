@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-12T08:30:14.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="vaZ3yUv8HBlUcaaLyl6b" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-12T08:41:30.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="xsqbsKOKYwJUPLbJYwuP" version="13.7.9" type="github">
   <diagram id="xNfyNsbMvFGJoiRx-PXB" name="Page-1">
-    <mxGraphModel dx="1542" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="516" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="locked=1;" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="PkgsJuSFMBxbk_swUeb1-7" value="&lt;p&gt;&lt;b&gt;&lt;u&gt;traditional-monolith&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="40" y="60" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PkgsJuSFMBxbk_swUeb1-8" value="monolith" parent="0" />
-        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-10" target="PkgsJuSFMBxbk_swUeb1-11">
+        <mxCell id="PkgsJuSFMBxbk_swUeb1-8" value="monolith" style="locked=1;" parent="0" />
+        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-10" target="PkgsJuSFMBxbk_swUeb1-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="370" y="155" />
@@ -23,10 +23,10 @@
         <mxCell id="PkgsJuSFMBxbk_swUeb1-10" value="Database Server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;" parent="PkgsJuSFMBxbk_swUeb1-8" vertex="1">
           <mxGeometry x="390" y="110" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.554;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-11" target="PkgsJuSFMBxbk_swUeb1-10">
+        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.554;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-11" target="PkgsJuSFMBxbk_swUeb1-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-11">
+        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="190" as="targetPoint" />
           </mxGeometry>
@@ -34,7 +34,7 @@
         <mxCell id="PkgsJuSFMBxbk_swUeb1-11" value="Application Server" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#ffffff;" parent="PkgsJuSFMBxbk_swUeb1-8" vertex="1">
           <mxGeometry x="240" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-12" target="PkgsJuSFMBxbk_swUeb1-11">
+        <mxCell id="SYb_Q7T9ZbV4QYUq7n_5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PkgsJuSFMBxbk_swUeb1-8" source="PkgsJuSFMBxbk_swUeb1-12" target="PkgsJuSFMBxbk_swUeb1-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PkgsJuSFMBxbk_swUeb1-12" value="Configuration Files" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;" parent="PkgsJuSFMBxbk_swUeb1-8" vertex="1">
@@ -45,6 +45,13 @@
             <mxPoint x="190" y="250" as="sourcePoint" />
             <mxPoint x="240" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TQWEVQMjpfpf3fjsxxt0-2" value="comment" parent="0" />
+        <mxCell id="TQWEVQMjpfpf3fjsxxt0-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="TQWEVQMjpfpf3fjsxxt0-2">
+          <mxGeometry x="510" y="50" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TQWEVQMjpfpf3fjsxxt0-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6 ; font-weight: bold&quot;&gt;**Oldest Arch**&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;: &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4 ; font-style: italic&quot;&gt;*Single*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;config-files&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;lt;--&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;monolithic-application&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &amp;lt;--&amp;gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Database&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; Commonly ran on MVC frameworks that run front end and server side code in one neat package&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6 ; font-weight: bold&quot;&gt;**Pros**&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;: Can be great for rapid development&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6 ; font-weight: bold&quot;&gt;**Cons**&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;: &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; Can easily result in bad desicions in code stucture&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #6796e6&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt; Lack of seperation of concerns leaves release cycles long and hard.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="TQWEVQMjpfpf3fjsxxt0-2">
+          <mxGeometry x="520" y="60" width="310" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
